@@ -30,3 +30,42 @@ Lectana es una plataforma digital integral que facilite el acceso gratuito, equi
 ![Android](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
+## ✨ Funcionalidades principales
+
+### 📱 App Móvil
+**Estudiantes**
+- 📚 Acceso a catálogo de cuentos y libros con lectura en línea
+- 🔊 Reproducción en modo audiolibro
+- 🎮 Actividades interactivas y retos gamificados
+- 📊 Seguimiento de progreso personal
+
+**Docentes**
+- 🏫 Gestión de aulas virtuales y asignación de lecturas
+- ✏️ Creación y corrección de actividades
+- 💬 Comunicación con estudiantes via mensajes y comentarios
+
+### 🖥️ Panel Web (Administración)
+- 📖 Gestión del catálogo de libros y cuentos
+- 👥 Administración de usuarios y aulas
+- 🔍 Supervisión general del sistema
+
+## 🏗️ Arquitectura
+
+La plataforma sigue una arquitectura **cliente-servidor** con tres clientes conectados a una API REST central.
+```
+[App Móvil - Android]  ─┐
+                         ├──► [API REST - Node.js/Express] ──► [Supabase DB]
+[Web - React]          ─┘              │
+                                       └──► [ElevenLabs API]
+                                            (Audiolibros)
+```
+
+### Backend
+Organizado en capas: `routes → controllers → services → database`
+Con `middleware` para autenticación JWT y validación con Zod.
+
+### Frontend Web
+Arquitectura de componentes React con separación en `components`, `layouts`, `hooks` y `services`.
+
+### App Móvil
+Patrón **Repository** con capas `models → repository → services → adapters`.
