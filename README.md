@@ -69,3 +69,10 @@ Arquitectura de componentes React con separación en `components`, `layouts`, `h
 
 ### App Móvil
 Patrón **Repository** con capas `models → repository → services → adapters`.
+## Documentacion
+
+- [SRS](./docs/SRS.pdf)
+- [DER](./docs/DER.jpeg)
+- [Casos de prueba](./docs/casos-de-prueba.pdf)
+
+
