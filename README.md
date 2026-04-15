@@ -69,6 +69,11 @@ Arquitectura de componentes React con separación en `components`, `layouts`, `h
 
 ### App Móvil
 Patrón **Repository** con capas `models → repository → services → adapters`.
+
+## 🎥 Demo
+
+[![Demo Lectana](https://i9.ytimg.com/vi/xwFHtPw4C-0/mqdefault.jpg?sqp=CPio_84G-oaymwEmCMACELQB8quKqQMa8AEB-AH8AoAC0gaKAgwIABABGGUgZShSMA8=&rs=AOn4CLAoQGduvnks1Z8xi0rcf8nH5HvGdw](https://youtu.be/xwFHtPw4C-0)
+
 ## Documentacion
 
 - [SRS](./docs/SRS.pdf)
