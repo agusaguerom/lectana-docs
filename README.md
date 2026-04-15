@@ -72,7 +72,7 @@ Patrón **Repository** con capas `models → repository → services → adapter
 
 ## 🎥 Demo
 
-[![Demo Lectana](https://img.youtube.com/vi/RR81-ewxqKkDcjlm3liSQQ/maxresdefault.jpg](https://youtu.be/xwFHtPw4C-0)
+[![Demo Lectana](https://img.youtube.com/vi/xwFHtPw4C-0/maxresdefault.jpg)](https://www.youtube.com/watch?v=xwFHtPw4C-0)
 
 ## Documentacion
 
